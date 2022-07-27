@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(11,31,63,1) 0%, rgba(56,7,41,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.main__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+    margin: 0 30px;
+}
+
+
+img{
+    width: 25em;
+    display: block;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    margin-top: 6px;
+    color: white;
+    font-size: 5.5em;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    font-size: 3.5em;
+    color: white;
+    font-weight: bold;
+
+}
+
+.medals{
+    background-color: #1d1c21;
+    display: grid;
+    border-radius: 2px;
+    margin-top: 20px;
+    border: 1px solid #ffdd56;
+    border-radius: 4px;
+    padding: 8px;
+    transition: transform .2s;
+}
+
+.medals:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,87 @@
+body {
+  background-image: url("https://images2.alphacoders.com/116/thumb-1920-1160159.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.titulo {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  padding: 0 35px;
+  width: 60%;
+  margin: 0 auto;
+  transition: transform .3s;
+}
+.description{
+    color: white;
+}
+.card:nth-child(1) {
+  background: rgba(177, 0, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.card:nth-child(2) {
+  background: rgba(85, 85, 85, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.card:nth-child(3) {
+  background: rgba(255, 34, 0, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+button {
+  margin: 20px;
+  width: 60%;
+  height: 70%;
+  border: 2px solid gold;
+  border-radius: 15px;
+  background-color: transparent;
+  cursor:pointer;
+  transition: .5s;
+}
+
+button:hover{
+    background-color: rgb(221, 197, 62);
+}
+img{
+    width: 70%;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
